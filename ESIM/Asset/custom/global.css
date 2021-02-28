@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "bauhaus_medium";
+  src: url("../font/bauhaus-medium-bt-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "bauhaus_light";
+  src: url("../font/bauhaus_light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "poppins";
+  src: url("../font/Poppins-BoldItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,
+h5,
+h2 {
+  font-family: bauhaus_medium;
+}
+.headingOne {
+  font-family: poppins;
+  font-size: 2.4em;
+}
+.headingAttention {
+  color: #ecbb43;
+  font-weight: 600;
+  font-family: bauhaus_medium;
+  font-weight: bold;
+  font-size: 62px;
+}
+p {
+  font-family: bauhaus_light;
+}
+
+.attention {
+  color: #ecbb43;
+  font-weight: 600;
+}

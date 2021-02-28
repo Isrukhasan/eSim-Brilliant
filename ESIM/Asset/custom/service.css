@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "bauhaus_medium";
+  src: url("../Asset/font/bauhaus-medium-bt-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "bauhaus_light";
+  src: url("../Asset/font/bauhaus_light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,
+h5,
+h2 {
+  font-family: bauhaus_medium;
+}
+p {
+  font-family: bauhaus_light;
+}
+
+.attention {
+  color: #ecbb43;
+  font-weight: 600;
+}
+.serviceContainer {
+  max-height: 500px;
+}
+.serviceRow {
+  text-align: center;
+}
+#serviceHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  /* margin-bottom: */
+  padding: 15px;
+  margin-top: 3vh;
+}
+#serviceIcon {
+  width: 32px;
+  height: 32px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+/* Service Section Media Query */
+@media screen and (max-width: 600px) {
+  .serviceDiv > p {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}

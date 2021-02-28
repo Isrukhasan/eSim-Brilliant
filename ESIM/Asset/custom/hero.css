@@ -1,0 +1,81 @@
+.btn-primary {
+  background-color: #ecbb43;
+  border-color: #ecbb43;
+  color: black;
+  font-family: poppins;
+}
+.btn-primary:hover {
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+
+.heroSection {
+  background-color: cornsilk;
+}
+.heroHeading,
+.heroSubHeading {
+  font-family: poppins;
+}
+@media screen and (min-width: 800px) {
+  #phoneMockup {
+    max-width: 100%;
+    height: 450px;
+    margin-left: 150px;
+  }
+
+  .heroHeadingSpan {
+    text-decoration: underline;
+    text-decoration-color: #545b62;
+  }
+  #buttonSpace {
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #phoneMockup {
+    max-width: 100%;
+  }
+  .heroHeading {
+    font-family: poppins;
+    font-size: 15px;
+  }
+  .btn-primary {
+    font-size: 9px;
+  }
+  #buttonSpace {
+    margin-right: 10px;
+  }
+  .hideMe {
+    display: none;
+  }
+}
+
+.flex-container {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: flex-end;
+  order: 0;
+}
